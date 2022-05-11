@@ -24,6 +24,7 @@ body {
     color: white;
 }
 
+
 /* layout */
 .container {
     width: 90%;
@@ -72,7 +73,7 @@ nav {
 /*contenedor 2*/
 
 
-.container-3{
+.container-2{
     margin-bottom: 30px;
 }
 
@@ -82,14 +83,14 @@ nav {
 }
 
 .acerca-de-mi h2{
-    margin-bottom: 25px;
+    margin: 40px;
 }
 
 /* container-3*/
 
 .container-3 h2{
     text-align: center;
-    margin: 20px;
+    margin: 40px;
 }
 
 .servicios{
@@ -132,12 +133,54 @@ nav {
 
 /*container 4*/
 
-.container-4{
-    text-align: center;
+
+
+.container-4 h2{
+    margin: 40px;
+}
+
+.habilidades {
+    margin: 10px;
+}
+
+.habilidades-JavaScript{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.progress{
+    
+    height: 15px;
+    width: 95%;
+    background-color: azure;
+    border-radius: 20px;
+
+    
+}
+
+.progress-done{
+    height: 100%;
+    width: 90%;
+    background-color: #34b0be;
+    border-radius: 20px;
+}
+
+.habilidades h3{
+    display: inline-block;
+    margin-left: 4%;
+    margin-bottom: 5px;
+    
+}
+
+.habilidades p{
+    display: inline-block;
+    margin-left: 10px;
 }
 
 .container-4 h2{
-    margin: 10px 0;
+    text-align: center;
 }
 
 
@@ -147,7 +190,7 @@ nav {
 
 .portafolio h2{
     text-align: center;
-    margin-bottom: 20px;
+    margin: 40px;
 }
 
 
@@ -171,7 +214,7 @@ nav {
 
 .container-6 h2{
     text-align: center;
-    margin: 15px;
+    margin: 40px;
 }
 
 .container-6-box{
