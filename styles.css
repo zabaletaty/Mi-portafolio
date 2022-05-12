@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+html {	
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
 a {
     text-decoration: none;
 }
@@ -13,8 +18,15 @@ ul {
 }
 
 body {
-    font-family: 'Poppins';
-    background-color: #242635;
+    font-family: 'Montserrat', sans-serif;
+    background: var(--color-fondo);
+}
+
+:root {
+    --color-fondo: #242635;
+    --color-title: #34B0BE;
+    --color-font: #fff;
+    --color-text: #D1CECA;
 }
 
 .blue-text {
@@ -68,6 +80,142 @@ nav {
     overflow: hidden;
 }
 
+/* container-1*/
+
+
+
+
+
+
+
+
+.home {
+    margin-top: 8rem;
+}
+
+.p-absolute{
+    position: absolute;
+}
+
+.p-relative{
+    position: relative;
+}
+
+.row {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vh;
+    height: 30vh;
+    background: rgb(209 206 202 / 25%);
+    border-radius: 50%;
+    left: calc(50% - 15vh);
+
+}
+.home__container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.home__container2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.col-sm-6 {
+    width: 50%;
+}
+
+.col-md-12 {
+    width: 100%;
+}
+
+.intro {
+    color: var(--color-font);
+    font-size: 2rem;
+}
+
+.title {
+    color: var(--color-title);
+    font-size: 4rem;
+}
+
+.home__bar-sm {
+    background: var(--color-font);
+    height: .2rem;
+    width: 100%;
+    padding-right: 2rem;
+}
+
+.title__text {
+    color: var(--color-font);
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+
+
+.home__experience {
+    position: static;
+    top: 0;
+}
+
+.home__red {
+    display: flex;
+    align-items: center;
+}
+
+.home__icon {
+    background: var(--color-text);
+    display: inline-block;
+    border-radius: 50%;
+    height: 2.5rem;
+    width: 2.5rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #242635;
+    font-size: 1.5rem;
+    margin-right: 2rem;
+    text-decoration: none;
+}
+
+
+
+.home__sites {
+    position: relative;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    background: #4f505b;
+    padding: 1.5rem .2rem;
+    margin: 5rem auto;
+    margin-top: 70px;
+    margin-bottom: 0;
+}
+
+
+.home__sites__icon {
+    background: var(--color-text);
+    display: inline-block;
+    border-radius: 1rem;
+    height: 3rem;
+    width: 66px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #242635;
+    font-size: 2rem;
+}
 
 
 /*contenedor 2*/
@@ -84,6 +232,7 @@ nav {
 
 .acerca-de-mi h2{
     margin: 40px;
+    margin-top: 0%;
 }
 
 /* container-3*/
