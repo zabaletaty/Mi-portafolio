@@ -194,7 +194,6 @@ nav {
     background: #4f505b;
     padding: 1.5rem .2rem;
     margin: 5rem auto;
-    margin-top: 70px;
     margin-bottom: 0;
 }
 
@@ -231,6 +230,10 @@ nav {
 }
 
 /* container-3*/
+
+.title-conteiner-3{
+    margin: 2rem;
+}
 
 .container-3 h2{
     text-align: center;
@@ -304,9 +307,16 @@ nav {
     
 }
 
-.progress-done{
+.progress-done-1{
     height: 100%;
     width: 90%;
+    background-color: #34b0be;
+    border-radius: 20px;
+}
+
+.progress-done-2{
+    height: 100%;
+    width: 80%;
     background-color: #34b0be;
     border-radius: 20px;
 }
@@ -380,8 +390,9 @@ nav {
     border-radius: 3%;
 }
 
-.contacto-box i{
-    margin: 10px 0;
+
+.contacto-box img{
+    margin: 1rem;
 }
 
 .contacto-box h3{
@@ -405,13 +416,27 @@ nav {
     border-radius: 3%;
 }
 
-.contacto-box-2 i{
-    margin: 10px 0;
+
+
+.contacto-box-2 img{
+    margin: 1rem;
 }
 
 .contacto-box-2 h3{
     margin: 10px 0;
 }
+
+/*footer*/
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    background-color: #4f505b;
+}
+
+
 
 
 
@@ -436,6 +461,8 @@ nav {
     
     
 }
+
+
 
 
 /* Desktop */
