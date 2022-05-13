@@ -9,6 +9,10 @@ html {
     scroll-behavior: smooth;
 }
 
+.main{
+   
+}
+
 a {
     text-decoration: none;
 }
@@ -193,7 +197,7 @@ nav {
     width: 80%;
     background: #4f505b;
     padding: 1.5rem .2rem;
-    margin: 5rem auto;
+    margin: 6.1rem auto;
     margin-bottom: 0;
 }
 
@@ -241,7 +245,7 @@ nav {
 }
 
 .servicios{
-    max-height: 300px;
+    
     display: flex;
     overflow-x: auto;
 }
@@ -349,11 +353,7 @@ nav {
 
 
 
-.portafolio-container{
-    max-height: 300px;
-    display: flex;
-    overflow-x: auto;
-}
+
 
 .portafolio-container div{
     min-width: 300px;
@@ -436,37 +436,51 @@ nav {
     background-color: #4f505b;
 }
 
+@media (min-width: 576px){
 
-
-
-
-@media(min-width: 768px) {
-    .row {
-        display: flex;
-    }
-    .col-md-6 {
-        width: 50%;
-        padding: 10px;
-    }
-    .card-pading-top{
-        margin-top: 0px;
+    .main{
+        margin: 0 10%;
     }
 
-    .grid-wrapper {
-        grid-template-columns:repeat(auto-fit, minmax(300px, auto));
-       }
-    .grid-box {
-        padding: 10px 0;
+
+
+
+    .home__sites{
+        padding: 2rem .2rem;
+        margin: 6rem auto;
     }
+}
+
+@media(min-width: 768px){
+
+
+    .main{
+        margin: 0 20%;
+    }
+
     
+
+
+
+    .home__sites {
+        margin: 12.4rem auto;
+        width: 80%;
+        height: 7rem;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+
     
 }
 
 
-
-
 /* Desktop */
 @media(min-width: 992px) {
+
+    .main{
+        margin: 0 25%;
+    }
+
     .lg-hidden {
         display: none;
     }
@@ -484,6 +498,46 @@ nav {
     nav li {
         display: inline-block;
     }
+
+    .circle{
+        width: 50vh;
+        height: 50vh;
+        left: calc(50% - 25vh);
+    }
+
+    .container-3 div{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .box-1{
+        margin: 10px;
+        width: 220px;
+    }
+
+    .servicios {
+        min-height: 300px;
+        display: flex;
+    }
+
+    .container-5 div{
+        flex-wrap: wrap;
+        
+    }
+
+    .portafolio-container{
+    
+        display: flex;
+        overflow-x: none;
+        justify-content: center;
+
+    }
+
+    .portafolio-container div {
+        margin: 10px;
+    }
+
+
     
 }
 
